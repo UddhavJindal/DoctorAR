@@ -15,12 +15,12 @@ D:/Unity/UnityApp/2020.3.25f1/Editor/Unity-HumanOrgans/Human Organs
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49645
+64641
 Successfully changed project path to: D:/Unity/UnityApp/2020.3.25f1/Editor/Unity-HumanOrgans/Human Organs
 D:/Unity/UnityApp/2020.3.25f1/Editor/Unity-HumanOrgans/Human Organs
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 364.38 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 24.07 ms.
+Refreshing native plugins compatible for Editor in 442.73 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 23.46 ms.
 Initialize engine version: 2020.3.25f1 (9b9180224418)
 [Subsystems] Discovering subsystems at path D:/Unity/UnityApp/2020.3.25f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Unity/UnityApp/2020.3.25f1/Editor/Unity-HumanOrgans/Human Organs/Assets
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'D:/Unity/UnityApp/2020.3.25f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/UnityApp/2020.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/UnityApp/2020.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/UnityApp/2020.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001098 seconds.
+Registered in 0.016734 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 56.40 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 59.93 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.700 seconds
+- Completed reload, in  0.704 seconds
 Domain Reload Profiling:
-	ReloadAssembly (701ms)
-		BeginReloadAssembly (61ms)
+	ReloadAssembly (704ms)
+		BeginReloadAssembly (67ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (561ms)
-			LoadAssemblies (60ms)
+		EndReloadAssembly (540ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (177ms)
+			SetupTypeCache (173ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (228ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (224ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (57ms)
-				BeforeProcessingInitializeOnLoad (18ms)
-				ProcessInitializeOnLoadAttributes (96ms)
+				RefreshPlugins (60ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (90ms)
 				ProcessInitializeOnLoadMethodAttributes (53ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,51 +73,51 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.087464 seconds.
+Registered in 0.166887 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 55.48 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Refreshing native plugins compatible for Editor in 56.36 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.240 seconds
+- Completed reload, in  1.970 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1241ms)
+	ReloadAssembly (1971ms)
 		BeginReloadAssembly (157ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1022ms)
-			LoadAssemblies (104ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1752ms)
+			LoadAssemblies (734ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (354ms)
+			SetupTypeCache (398ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (385ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (440ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (56ms)
-				BeforeProcessingInitializeOnLoad (108ms)
-				ProcessInitializeOnLoadAttributes (206ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
-Refreshing native plugins compatible for Editor in 0.96 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.10 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.36 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
 Unloading 2352 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 94.4 MB.
 System memory in use after: 94.5 MB.
 
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2785.
-Total: 4.776100 ms (FindLiveObjects: 0.309500 ms CreateObjectMapping: 0.141900 ms MarkObjects: 4.220300 ms  DeleteObjects: 0.102100 ms)
+Total: 4.879100 ms (FindLiveObjects: 0.277700 ms CreateObjectMapping: 0.086400 ms MarkObjects: 4.401800 ms  DeleteObjects: 0.110900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,581 +132,971 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1795928c9fa26149f8ab72180b89d0') in 0.245235 seconds 
-  Import took 0.275002 seconds .
+  path: Assets/Prefabs/Heart/heart.fbx
+  artifactKey: Guid(8a65ab2cf5599e648b9d0a12f695345e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/heart.fbx using Guid(8a65ab2cf5599e648b9d0a12f695345e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f9761b6d6b118a3a8ee0614bfff27c') in 0.593516 seconds 
+  Import took 0.615738 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.292023 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1bab2b0710d10ae9192cc6e00a2741') in 0.055090 seconds 
-  Import took 0.075393 seconds .
+  Time since last request: 0.000385 seconds.
+  path: Assets/Prefabs/Heart
+  artifactKey: Guid(a69dff19263b4e549af5ae7d4b4f74ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart using Guid(a69dff19263b4e549af5ae7d4b4f74ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8fb7e151ca94bee60766640ed4881a') in 0.013666 seconds 
+  Import took 0.051377 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.749215 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46942b65084f05b0d74c153dc5c39fe') in 0.037049 seconds 
-  Import took 0.043033 seconds .
+  Time since last request: 3.634158 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c15768602ac185ffba1efce66ad93c8c') in 0.008890 seconds 
+  Import took 0.024973 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.084335 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08619bb8b3413951e4adfd66c136aab8') in 0.051135 seconds 
-  Import took 0.067378 seconds .
+  Time since last request: 3.183003 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded48f28a3af4f7799927cfe29de76dc') in 0.018152 seconds 
+  Import took 0.035729 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.493743 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91df058f66c1544805d90deb7b9b7ccf') in 0.031765 seconds 
-  Import took 0.051263 seconds .
+  Time since last request: 16.521291 seconds.
+  path: Assets/Prefabs/Heart/heart.fbx
+  artifactKey: Guid(8a65ab2cf5599e648b9d0a12f695345e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/heart.fbx using Guid(8a65ab2cf5599e648b9d0a12f695345e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82be9a528681d41bda0304d965f0054f') in 0.063374 seconds 
+  Import took 0.079975 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.864085 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94dd31a6945957bf722982289f32198') in 0.059749 seconds 
-  Import took 0.076370 seconds .
+  Time since last request: 0.000301 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed819d273aa3a64092145119343babeb') in 0.015847 seconds 
+  Import took 0.035416 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.208827 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0a2efd0f36474233c38e9db9d7cc66') in 0.054141 seconds 
-  Import took 0.066628 seconds .
+  Time since last request: 1.116805 seconds.
+  path: Assets/Prefabs/Heart/Materials
+  artifactKey: Guid(fb992e748030ad84c93c2b5cf23999ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Materials using Guid(fb992e748030ad84c93c2b5cf23999ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c69dc58fb8c26f860754fe0c319681') in 0.011486 seconds 
+  Import took 0.032343 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.920237 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1f410b151cd8ec7423a950201d31bf') in 0.045835 seconds 
-  Import took 0.050601 seconds .
+  Time since last request: 0.029266 seconds.
+  path: Assets/Prefabs/Heart/Materials/No Name.mat
+  artifactKey: Guid(baa2ef72cbabcb844a53dffca8de44a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Materials/No Name.mat using Guid(baa2ef72cbabcb844a53dffca8de44a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57216bd1bf4882ca42de37d658cd5cac') in 0.010758 seconds 
+  Import took 0.025124 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.366479 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ec89e5598318bca23f982a4e3f7bc4') in 0.048910 seconds 
-  Import took 0.059739 seconds .
+  Time since last request: 12.378901 seconds.
+  path: Assets/Prefabs/Heart/Materials/Red.mat
+  artifactKey: Guid(f75a18e9997732c4a80c9475095208db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Materials/Red.mat using Guid(f75a18e9997732c4a80c9475095208db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6520716b2127b0d4bc33ef81560110fc') in 0.026286 seconds 
+  Import took 0.031325 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.321402 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f25427ea71e5170a44433b517dfd7ba') in 0.031928 seconds 
-  Import took 0.047076 seconds .
+  Time since last request: 32.688559 seconds.
+  path: Assets/Prefabs/Heart/Materials/Blue.mat
+  artifactKey: Guid(3e27ddcbe36b57446925fe9b4b455ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Materials/Blue.mat using Guid(3e27ddcbe36b57446925fe9b4b455ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db017fc30b074055c1a5076d95fc3cc') in 0.019544 seconds 
+  Import took 0.032603 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.576905 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c727a2f2c51c5dbeaf4ca7d6ffe69bf7') in 0.045203 seconds 
-  Import took 0.062444 seconds .
+  Time since last request: 22.615063 seconds.
+  path: Assets/Prefabs/Heart/Materials/Purple.mat
+  artifactKey: Guid(290f2406ea582c14db6f9472b0ee0e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Materials/Purple.mat using Guid(290f2406ea582c14db6f9472b0ee0e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8af1168b056b39fe6cf7182a030c359') in 0.016711 seconds 
+  Import took 0.025766 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.193807 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22517f574ed36d26e97d7f00b67589d9') in 0.034634 seconds 
-  Import took 0.042431 seconds .
+  Time since last request: 51.478809 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68a84b99f6027885e882a4a071e811f') in 0.011635 seconds 
+  Import took 0.022911 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.280939 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0faf92565132b053a6bbb37509bca5') in 0.060865 seconds 
-  Import took 0.074046 seconds .
+  Time since last request: 13.783114 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8468de58414273258d23116712abef') in 0.007847 seconds 
+  Import took 0.018154 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 132.388461 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0beaa2603918fbcd9efb7d751be158') in 0.200404 seconds 
-  Import took 0.221348 seconds .
+  Time since last request: 7.554915 seconds.
+  path: Assets/Prefabs/Heart/heart.glb
+  artifactKey: Guid(5c1773bd9e1f9454b8b795bdd71d90ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/heart.glb using Guid(5c1773bd9e1f9454b8b795bdd71d90ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5388b7c4387fa5d3a316d802958dde81') in 0.010038 seconds 
+  Import took 0.024350 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.740140 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ff8a2364a22325cb04117a2ceec40a') in 0.033325 seconds 
-  Import took 0.043374 seconds .
+  Time since last request: 10.749743 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40abd37ab611c350aeea3ebd126a86fa') in 0.014034 seconds 
+  Import took 0.025380 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.569351 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d5c2ac8688c16b52ae85ea669e42cc') in 0.048839 seconds 
-  Import took 0.075218 seconds .
+  Time since last request: 1037.937723 seconds.
+  path: Assets/Prefabs/Heart/heart_labels.fbx
+  artifactKey: Guid(3443718c9e8a88241bde0b9d392524ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/heart_labels.fbx using Guid(3443718c9e8a88241bde0b9d392524ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f5cf992c032bf5e8f40830c26d59ce') in 0.157204 seconds 
+  Import took 0.177606 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.120547 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39203a88a50a7017587e007c3232d4f5') in 0.029228 seconds 
-  Import took 0.045375 seconds .
+  Time since last request: 5.621471 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a97a041a84c8bf6ee7d096d0155c19b') in 0.053410 seconds 
+  Import took 0.078121 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.400264 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9bbf57e2568c0ca2e27d8a6423fd1d') in 0.025203 seconds 
-  Import took 0.043670 seconds .
+  Time since last request: 3.074450 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d91864ce591a346cedf1d87e02cb0d') in 0.013645 seconds 
+  Import took 0.032091 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.962100 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d75837503a9afcf235a735c980b219') in 0.039360 seconds 
-  Import took 0.052731 seconds .
+  Time since last request: 3.178249 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd918f2c480cd4f5e52e464e520f680') in 0.015060 seconds 
+  Import took 0.027128 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.000047 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '348678e7688a4f5dcf5d5a0a928ee38e') in 0.039006 seconds 
-  Import took 0.055573 seconds .
+  Time since last request: 2.638634 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ebfeacb0d14a4305c9e8743cb045471') in 0.015879 seconds 
+  Import took 0.036306 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.813248 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ae9ee593d41774e91c20adb8d8c390') in 0.036311 seconds 
-  Import took 0.062835 seconds .
+  Time since last request: 28.520816 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a624f1b8f38d31816797f9440f124025') in 0.027476 seconds 
+  Import took 0.046145 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.133843 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53ac5947b9e905c0a3ae4f5b7894751') in 0.034974 seconds 
-  Import took 0.040523 seconds .
+  Time since last request: 104.953447 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2249e24c2330cdbabc75057d4d19846b') in 0.016854 seconds 
+  Import took 0.033359 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 84.382546 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad75e6bd2efdef2d426700b9646c7db4') in 0.033015 seconds 
-  Import took 0.038948 seconds .
+  Time since last request: 7.232837 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8512516ec50c05fdf8ef250758345946') in 0.016124 seconds 
+  Import took 0.032608 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 47.373056 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcbe41d7cdb9b15e01a874d6f9b6315b') in 0.027444 seconds 
-  Import took 0.037693 seconds .
+  Time since last request: 4.822637 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c969aae3d82f16cfdd4cbd06b650560') in 0.023395 seconds 
+  Import took 0.037232 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.746901 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76049f44e2161c3a316e1c2c7a88ca52') in 0.029398 seconds 
-  Import took 0.045358 seconds .
+  Time since last request: 3.200308 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e243a00b699978537d6ef57809d40d7') in 0.026090 seconds 
+  Import took 0.040314 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.978207 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0380ba3d5e9b6c3e7b98e00c96a442bb') in 0.030479 seconds 
-  Import took 0.051147 seconds .
+  Time since last request: 3.396604 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb920921ab9fd79cb8fa35f42a573d4') in 0.020416 seconds 
+  Import took 0.040102 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.972170 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b5597497c1ad26a639a9df924b9d80') in 0.029155 seconds 
-  Import took 0.037397 seconds .
+  Time since last request: 2.175918 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0622c08f789b0ae122e0f1afb005ba') in 0.019585 seconds 
+  Import took 0.036772 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.659439 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf5a232b28b074a6f56064b32fee6d2') in 0.031142 seconds 
-  Import took 0.043474 seconds .
+  Time since last request: 35.259197 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ce0a58943f0ccb31062e9a1c1101c2') in 0.031085 seconds 
+  Import took 0.051617 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.563837 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232367d609fd23b05c3da3f00557f783') in 0.050169 seconds 
-  Import took 0.067063 seconds .
+  Time since last request: 6.796992 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc43c4597d4d5d62e8ddcfd29e4917fc') in 0.015707 seconds 
+  Import took 0.021503 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.146641 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc1cff259068c0014b0199826e662eb') in 0.026741 seconds 
-  Import took 0.034165 seconds .
+  Time since last request: 2.408063 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34dd059675c8af43d330cce58eb424a') in 0.018259 seconds 
+  Import took 0.024004 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.652134 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f05af9db60b0a0d3f351c78bb61bda1') in 0.028667 seconds 
-  Import took 0.034566 seconds .
+  Time since last request: 8.645814 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57798034e3a857e8fa1d091f0ccd2f94') in 0.023829 seconds 
+  Import took 0.030215 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.388480 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bdb7c2b1e9b52db10f84331dccca68e') in 0.036070 seconds 
-  Import took 0.041150 seconds .
+  Time since last request: 2.646819 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b5dc3ce4709c773961c4f2ac33fd75') in 0.016677 seconds 
+  Import took 0.022392 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.394235 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c45b20085f385fb3bff7fe4715068f06') in 0.028483 seconds 
-  Import took 0.034162 seconds .
+  Time since last request: 4.357654 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce380ab2c97a081c08240e35f125a9ab') in 0.034592 seconds 
+  Import took 0.039743 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.246061 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d4dbeadcbfe5f6438756edb23a60be') in 0.036124 seconds 
-  Import took 0.042091 seconds .
+  Time since last request: 5.206226 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07fedd1952ce96d84c7216e8ddf947b') in 0.031553 seconds 
+  Import took 0.048380 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.192182 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846a3d79c78a741f395de42922ced63d') in 0.039277 seconds 
-  Import took 0.046155 seconds .
+  Time since last request: 15.065436 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f68a139d0202e25235928546f39f93') in 0.027829 seconds 
+  Import took 0.041971 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.359178 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15588a51f6a4e2a9742df262400e4459') in 0.034890 seconds 
-  Import took 0.040431 seconds .
+  Time since last request: 12.939252 seconds.
+  path: Assets/Prefabs/Heart/Materials/Text.mat
+  artifactKey: Guid(c81b3cedf8f330945bbf6f1af92375b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Materials/Text.mat using Guid(c81b3cedf8f330945bbf6f1af92375b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dabc218255e5b71c3c8a532d6911865a') in 0.012499 seconds 
+  Import took 0.018318 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.293909 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ca5caf92ea5681fabc53c6b59d4037') in 0.026881 seconds 
-  Import took 0.032466 seconds .
+  Time since last request: 50.939544 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d41711a25513f69966617424d47125') in 0.014643 seconds 
+  Import took 0.019415 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.812110 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbf0d70cbb89d210e8cc9233c86bbec') in 0.072441 seconds 
-  Import took 0.089866 seconds .
+  Time since last request: 57.308596 seconds.
+  path: Assets/Scenes/HomeScene.unity
+  artifactKey: Guid(a9423961253478544b6005315b842eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/HomeScene.unity using Guid(a9423961253478544b6005315b842eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23d5d0d6be1b031ab88b0a38a2c9168') in 0.026529 seconds 
+  Import took 0.050771 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 165.086879 seconds.
-  path: Assets/Prefabs/Lungs/Lung.prefab
-  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba0dd597dd26c6cd10f03cf6ed010e5') in 0.193269 seconds 
-  Import took 0.212370 seconds .
+  Time since last request: 35.297286 seconds.
+  path: Assets/Misc/heart.jpg
+  artifactKey: Guid(dc8b555329d3c7b4da6ce5b69e655bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Misc/heart.jpg using Guid(dc8b555329d3c7b4da6ce5b69e655bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281741e1190ab3ffe612207c133a87cc') in 0.085863 seconds 
+  Import took 0.089590 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.248215 seconds.
+  Time since last request: 166.144993 seconds.
+  path: Assets/Scenes/HeartScene.unity
+  artifactKey: Guid(d83b9a2e163438c4488cb24db09b0407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/HeartScene.unity using Guid(d83b9a2e163438c4488cb24db09b0407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4876a537256608fb5ac1a6bb59d5ebb1') in 0.003981 seconds 
+  Import took 0.016829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.069848 seconds.
+  path: Assets/Scenes/HomeScene.unity
+  artifactKey: Guid(a9423961253478544b6005315b842eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/HomeScene.unity using Guid(a9423961253478544b6005315b842eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8acb6c6b5b0a41dd5d66d0e5646e7a') in 0.004256 seconds 
+  Import took 0.013251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.359157 seconds.
+  path: Assets/Scenes/HeartScene.unity
+  artifactKey: Guid(d83b9a2e163438c4488cb24db09b0407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/HeartScene.unity using Guid(d83b9a2e163438c4488cb24db09b0407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c36bee970e6c5590eab8efaae83de2') in 0.003233 seconds 
+  Import took 0.018588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.515634 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79189375ec496dbb08a2f3d8c7fc01ac') in 0.015598 seconds 
+  Import took 0.034038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.781627 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d814d798c0c344dbf488632b034b5fc') in 0.094489 seconds 
+  Import took 0.099655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.272996 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2639184b4723e56228975efe68b1d698') in 0.166292 seconds 
+  Import took 0.183851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.570683 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b00df326a1e3b386af746948e04f665') in 0.027910 seconds 
+  Import took 0.046979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.500429 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1eb130a4649a6b27395095e3815cbab') in 0.040969 seconds 
+  Import took 0.063862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.643082 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac777eaa5c6316eee6b10a8149a342b') in 0.028339 seconds 
+  Import took 0.050649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.294050 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf72f5842253c55a7c07fc76f2bb10a8') in 0.030724 seconds 
+  Import took 0.049487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.588758 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded94a50b20c9928ca9ddbca68cd0a0e') in 0.025605 seconds 
+  Import took 0.036968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.457371 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742c17bcbac0058e330e27c220535ac2') in 0.034583 seconds 
+  Import took 0.061778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 109.831366 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '489911b37ad5b81ae78d007f03076b54') in 0.031639 seconds 
+  Import took 0.036859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.028343 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04816ff6cde9c8d675bb4a397bba7da') in 0.025432 seconds 
+  Import took 0.047418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.256474 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad46b0fba192dbe7166581a3bdcf576') in 0.033505 seconds 
+  Import took 0.038587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.415904 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff054e9dd78dc19c29b8e422d81cef06') in 0.026491 seconds 
+  Import took 0.031681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.570690 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26518dbb9670ddad539a0ead3ef35e7') in 0.025932 seconds 
+  Import took 0.031704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.404907 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0487adac79d5e111ee7f589a8291722') in 0.028445 seconds 
+  Import took 0.044199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.957574 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7e331d9bb4aa8e8ba4e385286dcb44') in 0.027049 seconds 
+  Import took 0.054045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.101325 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d166d0f36fe65a1c47089abe75dc5e') in 0.038652 seconds 
+  Import took 0.044618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.251390 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f39753f19ca1896ff022b06a99a4ef') in 0.025790 seconds 
+  Import took 0.055634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.996327 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40730864036b6bc3e426015909ec761c') in 0.025652 seconds 
+  Import took 0.051706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.392750 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc2ee557a9a5132eee0e08e7397f825c') in 0.031655 seconds 
+  Import took 0.038074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.205752 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc08602b03b187926e07a77b5944705') in 0.027068 seconds 
+  Import took 0.055473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.563710 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a45749404b6258d89e6dec3f379cef') in 0.031360 seconds 
+  Import took 0.054309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.355967 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885de8b24eceba6827a52b521644bd36') in 0.030217 seconds 
+  Import took 0.052947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.459162 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af92d2e826500e66eb897f3f970aa4e') in 0.029429 seconds 
+  Import took 0.046042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.275535 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc24181b867bbb6a455c8fcb0d31c80') in 0.041485 seconds 
+  Import took 0.068097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.926330 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ec7db689fd739b423ab2566f14198e') in 0.029059 seconds 
+  Import took 0.045453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.591437 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba556a618137ff1b7cd0a6a8efb421d') in 0.028727 seconds 
+  Import took 0.035108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.002560 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1958dc24622a20987a721a34a5c7a41') in 0.023632 seconds 
+  Import took 0.039542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.996272 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9807871a7fc4eec5290a0dd104112e70') in 0.029632 seconds 
+  Import took 0.035259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.464184 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c812efebbec0f3aade9ee8e228942e9') in 0.032329 seconds 
+  Import took 0.059555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.779920 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7f67f1720256592d1a4489124fc695') in 0.168519 seconds 
+  Import took 0.181045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.126655 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600773396e29da47352f188f719dfd7d') in 0.027868 seconds 
+  Import took 0.041344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.993993 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a53b2054184fdaccafbe1a0cfbd513') in 0.048384 seconds 
+  Import took 0.053762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.781631 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8337db97e8e7862964f814fff6bc39') in 0.028471 seconds 
+  Import took 0.033508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.234832 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673cc8f6fd34de8890de798b2be85638') in 0.030504 seconds 
+  Import took 0.044370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.552493 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe755b5467237f19a856747e23e1b3c') in 0.039803 seconds 
+  Import took 0.044708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.607295 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c6364a9f67b8aa66cb8ae4d9fdf1ad') in 0.024815 seconds 
+  Import took 0.030105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.240322 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a03f7a4b76d68f1f3316cab84ed7654') in 0.028360 seconds 
+  Import took 0.048522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.840908 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db605948f1921e9bd011c9dda632938') in 0.028596 seconds 
+  Import took 0.044954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.494850 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266889b7348d06d61bb075e3ce1b4483') in 0.025781 seconds 
+  Import took 0.031075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.231658 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b1999416c551aa5bf6b21babd74182') in 0.027765 seconds 
+  Import took 0.032540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.532849 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728ee1eabdf1a78eb6f01842fb3bae03') in 0.027456 seconds 
+  Import took 0.041599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.261642 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf5407ab5055d0865be88ff9981a196') in 0.028589 seconds 
+  Import took 0.049631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.830989 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd4f348e3a5cfb36e9aa17f5fd76a07') in 0.025880 seconds 
+  Import took 0.031114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.777844 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b5448e4f8bfc31e0998258c52cb94c') in 0.030078 seconds 
+  Import took 0.049961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.441197 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77102cc7538b5d6356f38d6f14ac1b74') in 0.028195 seconds 
+  Import took 0.056280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.029925 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f1af27395634ef5ef24d279efd119b') in 0.038389 seconds 
+  Import took 0.056386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.774831 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2762c0a1e08603301a73336efb3e3d') in 0.044577 seconds 
+  Import took 0.058846 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.023330 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f791a857d9b38361607dbe99214d27e3') in 0.039721 seconds 
+  Import took 0.056226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.620824 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d29addddb187cc508f0c6499ec7579') in 0.031664 seconds 
+  Import took 0.036549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.126123 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6b9769c892be458ccb6c2d1b31f924') in 0.176296 seconds 
+  Import took 0.189348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.411967 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fe020e9f78f665e734639e83b972849') in 0.030583 seconds 
+  Import took 0.036227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.026494 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8d20d565210fbe28107623c4646eb19') in 0.038351 seconds 
+  Import took 0.070778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.926267 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6448fd19a38a4e7c14a33101199b36a3') in 0.027628 seconds 
+  Import took 0.047403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.741131 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b5d2fef2d3bd3b8ba2956462db0976') in 0.030139 seconds 
+  Import took 0.045970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.785986 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87a44971cc1190f6327e1db9a2a97643') in 0.031721 seconds 
+  Import took 0.055994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.253731 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a678348745a40748d75335256708897') in 0.038274 seconds 
+  Import took 0.059702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.249965 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e5de229d46e7de3900159afc490b7c') in 0.030882 seconds 
+  Import took 0.048272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.349887 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707b55711f96fa7e04e48a1566683554') in 0.026271 seconds 
+  Import took 0.030977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 74.911409 seconds.
+  path: Assets/Prefabs/Lungs/Lung.prefab
+  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc79343a7cefbed003d7334884bd283d') in 0.050960 seconds 
+  Import took 0.076664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.199318 seconds.
+  path: Assets/Prefabs/Lungs/Lung.prefab
+  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55e0ffa85597534aa988d6db5096221') in 0.033305 seconds 
+  Import took 0.045976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.763211 seconds.
+  path: Assets/Prefabs/Lungs/Lung.prefab
+  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c689c7b5a5829e306889c72f754503d3') in 0.041731 seconds 
+  Import took 0.058109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.191554 seconds.
+  path: Assets/Prefabs/Lungs/Lung.prefab
+  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca51fcad4bae5c9f6d3dedccdaf0338') in 0.040290 seconds 
+  Import took 0.065141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.175875 seconds.
+  path: Assets/Prefabs/Lungs/Lung.prefab
+  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba77234255507534e13ca41ed61b518f') in 0.037035 seconds 
+  Import took 0.046832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.876338 seconds.
   path: Assets/Prefabs/Brain/BrainPrefab.prefab
   artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ecaeb6a71ce87700cc54b5203cd5900') in 0.161193 seconds 
-  Import took 0.192156 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.366572 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266d3e598efa37e85eb22eaaf3ea8d12') in 0.035943 seconds 
-  Import took 0.042499 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.170230 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f21a4e54a2ca8032715a1ad92bc722') in 0.063761 seconds 
-  Import took 0.092187 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.310496 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a9fd7dacfb61367f2855ce383dabd9') in 0.041211 seconds 
-  Import took 0.046693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.173486 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aff357a32bb281ec9efce4c5674aacc') in 0.034865 seconds 
-  Import took 0.052777 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.146339 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4ed6dd36e85e7293fb4fb2adced8cd') in 0.033237 seconds 
-  Import took 0.039705 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.274189 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48f7375e60474245dad0841f92c4985') in 0.043821 seconds 
-  Import took 0.058354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.471717 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be1c3dc711a8049c989fd9b6b9f4280') in 0.031013 seconds 
-  Import took 0.048856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.598212 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c0d2186f6842f90d88ebf3381210c5') in 0.034723 seconds 
-  Import took 0.060268 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.806470 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280656cc602773074ee3f3adc09fbb11') in 0.028093 seconds 
-  Import took 0.034933 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.445381 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1139c8a381bae0b792419ea44f206ec0') in 0.031093 seconds 
-  Import took 0.052305 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.722045 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3a3fe9a69e84bc25e4444335ee3669b') in 0.031727 seconds 
-  Import took 0.053193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.047581 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18e54f78b732fc90f4856e91667897a') in 0.039631 seconds 
-  Import took 0.053379 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.308816 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72bde68f6fe4462aa8ab020b4d648ce7') in 0.043153 seconds 
-  Import took 0.064924 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.448737 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ccd6db403cb74ad1c35e3808ba80ffd') in 0.044180 seconds 
-  Import took 0.064983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.751035 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57eac63ccf8ead5255023d5c6c02540d') in 0.028186 seconds 
-  Import took 0.042384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.605360 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b69fda2c651d9f78f0954d6b8060157c') in 0.035627 seconds 
-  Import took 0.043509 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.402631 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9288f0ea04d74bc9b94c389436ccea8a') in 0.042178 seconds 
-  Import took 0.048079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.183747 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c3557463e1cd0a82de137e00cc32148') in 0.050076 seconds 
-  Import took 0.063829 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.577739 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4178e58ae81fe1d7c450305a0e391b7') in 0.029010 seconds 
-  Import took 0.047430 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.744702 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a564e20c460ec8218894ec7b78aa62a6') in 0.035735 seconds 
-  Import took 0.041253 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.296589 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c15a809548e0c6de257e0c471ee8b6') in 0.037423 seconds 
-  Import took 0.052710 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.517241 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c0044fe69ae6e8d63b08cd6c8cb47dc') in 0.035992 seconds 
-  Import took 0.057645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.822669 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4819a05364d01f21a4bbadfdfdbcc9b0') in 0.045942 seconds 
-  Import took 0.058633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.480894 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25dd1ad9d59adcc1ac15e6aac3c93c6') in 0.036450 seconds 
-  Import took 0.051859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.840641 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c076b202d0a02a50ab78f479e0fd52') in 0.037898 seconds 
-  Import took 0.052610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.716754 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede08d4744ec1af863fb53e8f2479864') in 0.053284 seconds 
-  Import took 0.067513 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.469668 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c1aa0c9fba1099fb2bb92dc1da25ab') in 0.034823 seconds 
-  Import took 0.059629 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.396766 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5787d064a6b31214a2f70bedd796e47') in 0.038475 seconds 
-  Import took 0.059835 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.542012 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e09bc44da5515ba411780e13a9a5653') in 0.040295 seconds 
-  Import took 0.046600 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.424554 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2452c594dc8ca216e155bd1a74e2aefc') in 0.036654 seconds 
-  Import took 0.048459 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.970285 seconds.
-  path: Assets/Prefabs/Brain/BrainPrefab.prefab
-  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7597a42c141b9e7ec01e31a8a390146c') in 0.035377 seconds 
-  Import took 0.063230 seconds .
+Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '144ead332a3dfcabb218e98fbc7daae8') in 0.092164 seconds 
+  Import took 0.109729 seconds .
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 234.60 ms, found 9 plugins.
-Preloading 1 native plugins for Editor in 0.09 ms.
+Refreshing native plugins compatible for Editor in 11.13 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
 Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 52.1 MB.
-System memory in use after: 52.3 MB.
+System memory in use before: 52.6 MB.
+System memory in use after: 52.8 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2793.
-Total: 124.682400 ms (FindLiveObjects: 0.292500 ms CreateObjectMapping: 0.072000 ms MarkObjects: 124.277200 ms  DeleteObjects: 0.038500 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2832.
+Total: 115.059200 ms (FindLiveObjects: 0.384000 ms CreateObjectMapping: 0.318600 ms MarkObjects: 114.331200 ms  DeleteObjects: 0.023500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 275.974391 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6dc2f6a93dcb8860a50738d9aa9af72') in 0.194684 seconds 
+  Import took 0.218300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.138537 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445d1158f46a3da164edcbddbc290552') in 0.030417 seconds 
+  Import took 0.059247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.031782 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052543bc078b4b889758eb25111e02f1') in 0.028670 seconds 
+  Import took 0.035184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.631092 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb29c5513e835de5365b0ba390872b50') in 0.026949 seconds 
+  Import took 0.055189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.374530 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe9e9bc7d8a9afc189119910b2c95a9') in 0.028236 seconds 
+  Import took 0.051860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.321535 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161537321a1fc91062d6e0f4693aa7ba') in 0.025870 seconds 
+  Import took 0.042565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.917612 seconds.
+  path: Assets/Prefabs/Heart/Heart.prefab
+  artifactKey: Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Heart/Heart.prefab using Guid(6acf6e9783de1aa45893cb6afd3ee39d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568ce9837e99ed287f2d9fbae115ca38') in 0.031105 seconds 
+  Import took 0.035854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.964286 seconds.
+  path: Assets/Prefabs/Brain/BrainPrefab.prefab
+  artifactKey: Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Brain/BrainPrefab.prefab using Guid(4798a78cba040044cba9c629ebe89424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9e6891e699284ff0a51e2938197faf2') in 0.040689 seconds 
+  Import took 0.059899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.040141 seconds.
+  path: Assets/Prefabs/Lungs/Lung.prefab
+  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439f6874620cf6dbc575e42b6ec364d3') in 0.106662 seconds 
+  Import took 0.111743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.611151 seconds.
+  path: Assets/Prefabs/Lungs/Lung.prefab
+  artifactKey: Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lungs/Lung.prefab using Guid(6ff94a9b8a616764ab4f4e193e9807bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb4266a378db6b703ea7dfcbe3be51e') in 0.031210 seconds 
+  Import took 0.057110 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 176.12 ms, found 9 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 52.5 MB.
+System memory in use after: 52.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2832.
+Total: 77.048200 ms (FindLiveObjects: 0.305300 ms CreateObjectMapping: 0.087300 ms MarkObjects: 76.628300 ms  DeleteObjects: 0.025800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
