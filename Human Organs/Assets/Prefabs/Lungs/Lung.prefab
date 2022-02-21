@@ -1744,17 +1744,18 @@ MonoBehaviour:
 
     A body has two lungs, one on each side of the chest.
     The heart is located between the lungs. The right lung has three rounded sections
-    called lobes. The left lung has two lobes. The base of each lung rests on a strong
-    sheet of muscle called the diaphragm. In normal breathing the diaphragm and the
-    muscles between the ribs automatically tighten and relax. This movement helps
-    the lungs to fill with air and to empty.
+    called <i>lobes</i>. The left lung has two lobes. The base of each lung rests
+    on a strong sheet of muscle called <i>the diaphragm</i>. In normal breathing
+    the diaphragm and the muscles between the ribs automatically tighten and relax.
+    This movement helps the lungs to fill with air and to empty.
 
 
-    Air enters and leaves the lungs
-    through a series of tubes. A large, tough tube called the trachea, or windpipe,
-    connects the top of the throat to two branching tubes called bronchi. Each of
-    these tubes leads to a different lung. The bronchi then divide into a web of
-    smaller tubes called bronchioles. The bronchioles lead to tiny sacs called alveoli.'
+    Air enters
+    and leaves the lungs through a series of tubes. A large, tough tube called the
+    <i>trachea, or windpipe</i>, connects the top of the throat to two branching
+    tubes called <i>bronchi</i>. Each of these tubes leads to a different lung. The
+    bronchi then divide into a web of smaller tubes called <i>bronchioles</i>. The
+    bronchioles lead to tiny sacs called <i>alveoli</i>.'
 --- !u!1 &2872141144974053750
 GameObject:
   m_ObjectHideFlags: 0
@@ -4807,7 +4808,7 @@ MonoBehaviour:
   m_Text: '<i>Function:</i>
 
     When an animal breathes in, the oxygen in the air
-    passes through the walls of the alveoli into tiny blood vessels called capillaries.
+    passes through the walls of the alveoli into tiny blood vessels called <i>capillaries</i>.
     Red blood cells then pick up the oxygen and take it to cells throughout the body.
     The blood also carries wastes, including carbon dioxide and water vapor, back
     into the lungs. The lungs send the wastes out of the body when the animal breathes
@@ -4815,9 +4816,9 @@ MonoBehaviour:
 
 
     The lungs also trap and get rid of harmful substances from the air.
-    A sticky liquid called mucus lines the lungs and the tubes leading to the lungs.
-    The mucus traps harmful substances such as pollution and bacteria. Mucus and
-    harmful substances leave the lungs when an animal coughs.'
+    A sticky liquid called <i>mucus</i> lines the lungs and the tubes leading to
+    the lungs. The mucus traps harmful substances such as pollution and bacteria.
+    Mucus and harmful substances leave the lungs when an animal coughs.'
 --- !u!1 &7059089077232782998
 GameObject:
   m_ObjectHideFlags: 0
@@ -5650,14 +5651,14 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "<i>Introduction:</i>\nAll living animals must take in oxygen and get rid
     of carbon dioxide. In the vertebrates\u2014animals with backbones\u2014that get
-    their oxygen from the air, both tasks are performed by special gas-exchange organs
-    called lungs. The lungs provide a place where oxygen can reach the blood and
-    carbon dioxide can be removed from it. They are equipped with tubes and a bellows
-    system for drawing in air from the outside, while the pulmonary (Latin pulmo,\u201Clung\u201D)
+    their oxygen from the air, both tasks are performed by <i>special gas-exchange
+    organs</i> called <i>lungs</i>. The lungs provide a place where oxygen can reach
+    the blood and carbon dioxide can be removed from it. They are equipped with tubes
+    and a bellows system for drawing in air from the outside, while the pulmonary
     veins and arteries circulate blood through from inside. The lungs also have a
-    cleaning system that traps, ejects, or destroys irritants and other harmful substances
-    that travel in with the air.\r\n\r\nIn the simpler cold-blooded amphibians and
-    reptiles, the lungs are two balloonlike sacs. In active animals that require
+    <i>cleaning system</i> that traps, ejects, or destroys irritants and other harmful
+    substances that travel in with the air.\r\n\r\nIn the simpler cold-blooded amphibians
+    and reptiles, the lungs are two balloonlike sacs. In active animals that require
     large amounts of oxygen, especially the warm-blooded birds and mammals, the lungs
     are a spongy labyrinth of sacs that supply an enormous surface area for the transfer
     of gases. In the adult human the total lung surface, if flattened out, would

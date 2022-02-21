@@ -1362,40 +1362,44 @@ MonoBehaviour:
 
 
     The brainstem
-    manages vital automatic functions, such as breathing, circulation, sleeping,
-    digestion, and swallowing. These are the involuntary processes controlled by
-    the autonomic nervous system.
+    manages vital automatic functions, such as <i>breathing, circulation, sleeping,
+    digestion, and swallowing</i>. These are the involuntary processes controlled
+    by the autonomic nervous system.
 
 
-    The brainstem also controls reflexes.
+    The brainstem also controls <i>reflexes</i>.
 
 
-    Function
+    <i>Function</i>
 
     The
     cerebellum is the area at the back and bottom of the brain, behind the brainstem.
-    The cerebellum has several functions relating to movement and coordination, including:
+    The cerebellum has several functions relating to <i>movement and coordination</i>,
+    including:
 
 
-    Maintaining
-    balance: The cerebellum has special sensors that detect shifts in balance and
-    movement. It sends signals for the body to adjust and move.
+    <i>Maintaining balance</i>: The cerebellum has special sensors
+    that detect shifts in balance and movement. It sends signals for the body to
+    adjust and move.
 
-    Coordinating
-    movement: Most body movements require the coordination of multiple muscle groups.
-    The cerebellum times muscle actions so that the body can move smoothly.
 
-    Vision:
-    The cerebellum coordinates eye movements.
+    <i>Coordinating movement</i>: Most body movements require
+    the coordination of multiple muscle groups. The cerebellum times muscle actions
+    so that the body can move smoothly.
 
-    Motor learning: The cerebellum
-    helps the body to learn movements that require practice and fine-tuning. For
-    example, the cerebellum plays a role in learning to ride a bicycle or play a
-    musical instrument.
 
-    Other functions: Researchers believe the cerebellum
-    has some role in thinking, including processing language and mood. However, findings
-    on these functions are yet to receive full exploration.'
+    <i>Vision</i>: The cerebellum coordinates
+    eye movements.
+
+    Motor learning: The cerebellum helps the body to learn movements
+    that require practice and fine-tuning. For example, the cerebellum plays a role
+    in learning to ride a bicycle or play a musical instrument.
+
+
+    <i>Other functions</i>:
+    Researchers believe the cerebellum has some role in thinking, including processing
+    language and mood. However, findings on these functions are yet to receive full
+    exploration.'
 --- !u!1 &1727865184677311388
 GameObject:
   m_ObjectHideFlags: 0
@@ -3029,33 +3033,33 @@ MonoBehaviour:
 
     The temporal lobe sits at the bottom middle portion of the
     brain, just behind the temples within the skull, which is also where it gets
-    its name. It also sits above the brain stem and cerebellum.
+    its name. It also sits above the <i>brain stem</i> and <i>cerebellum</i>.
 
 
-    The frontal
-    and parietal lobes are above the temporal lobe. The occipital lobe sits just
-    behind it.
+    The
+    frontal and parietal lobes are above the temporal lobe. The occipital lobe sits
+    just behind it.
 
 
-    Function
+    <i>Function</i>
 
-    The function of the temporal lobe centers around
-    auditory stimuli, memory, and emotion.
-
-
-    The temporal lobe contains the primary
-    auditory complex. This is the first area responsible for interpreting information
-    in the form of sounds from the ears.
+    The function of the temporal lobe
+    centers around <i>auditory stimuli, memory, and emotion</i>.
 
 
-    The temporal lobe receives different
-    frequencies, sounds, and pitches from the ears, and gives them meaning.
+    The temporal
+    lobe contains the <i>primary auditory complex</i>. This is the first area responsible
+    for interpreting information in the form of sounds from the ears.
 
 
-    As
-    part of this process, the temporal lobe is responsible for selective hearing
-    in humans. Selective hearing helps filter out the unnecessary frequencies so
-    that a person can focus on the important sounds from the environment.
+    The temporal
+    lobe receives different frequencies, sounds, and pitches from the ears, and gives
+    them meaning.
+
+
+    As part of this process, the temporal lobe is responsible
+    for selective hearing in humans. Selective hearing helps filter out the unnecessary
+    frequencies so that a person can focus on the important sounds from the environment.
 
 
     There
@@ -4780,7 +4784,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5474794958040912891}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
   m_Name: 
@@ -6290,8 +6294,8 @@ MonoBehaviour:
   m_Text: "<i>What is the frontal lobe?\r</i>\nThe frontal lobe is the part of the
     brain that controls important cognitive skills in humans, such as:\r\n\r\nemotional
     expression\r\nproblem-solving\r\nmemory\r\nlanguage\r\njudgment\r\nbehaviors\r\nIt
-    is, in essence, the \u201Ccontrol panel\u201D of our personality and our ability
-    to communicate.\n\nFunctions of the frontal lobe\r\nThe frontal lobe controls
+    is, in essence, the <i>control panel</i> of our personality and our ability to
+    communicate.\n\n<i>Functions of the frontal lobe\r</i>\nThe frontal lobe controls
     high-level cognitive skills like:\r\n\r\nplanning\r\nself-control\r\nmemory formation\r\nempathy\r\nattention\r\nIt\u2019s
     the center for the emotions and thought processes that translate into personality.\r\n\r\nThe
     frontal lobe is also responsible for primary motor function, or our ability to
@@ -6486,16 +6490,16 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "<i>What is the pariet lobe?\r</i>\nThe parietal lobe contains an area
     known as the primary sensory area. This is where impulses from the skin, such
-    as warmth, cold, pain, and touch, are interpreted. Just like the primary motor
-    area in the frontal lobe, the more sensory input that comes from an area of the
-    body (like the fingers), the more surface area of the parietal lobe is involved
-    in the processing of that information.\n\nThe left hemisphere of the parietal
-    lobe is often more active in right-handed people. This lobe is known for handling
-    the symbolism of letters and numbers. The right hemisphere tends to be more active
-    in left-handed people and helps with the interpretation of images and spatial
-    distances within them, such as those that exist in maps. Regardless of handedness,
-    people are not \u201Cright brained\u201D or \u201Cleft brained\u201D; we use
-    both sides of our parietal lobe."
+    as <i>warmth, cold, pain, and touch</i>, are interpreted. Just like the primary
+    motor area in the frontal lobe, the more sensory input that comes from an area
+    of the body (like the fingers), the more surface area of the parietal lobe is
+    involved in the processing of that information.\n\nThe left hemisphere of the
+    parietal lobe is often more active in right-handed people. This lobe is known
+    for handling the symbolism of letters and numbers. The right hemisphere tends
+    to be more active in left-handed people and helps with the interpretation of
+    images and spatial distances within them, such as those that exist in maps. Regardless
+    of handedness, people are not <i>right brained</i> or <i>left brained</i>; we
+    use both sides of our parietal lobe."
 --- !u!1 &7639837296883520677
 GameObject:
   m_ObjectHideFlags: 0
@@ -6808,13 +6812,14 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "<i>What is the occipital lobe?\r</i>\nThe occipital lobe is one of the
-    fourTrusted Source major brain lobe pairs in the human brain. The occipital lobe
-    is so named because it rests below the occipital bone of the skull. It is also
-    the smallest of the lobes.\r\n\r\nThere are actually two occipital lobes \u2014
-    one on each hemisphere of the brain. The central cerebral fissure divides and
-    separates the lobes.\n\nFunction\r\nIn general, the occipital lobe deals with
-    aspects of vision, including:\r\n\r\ndistance\r\ndepth perception\r\ncolor determination\r\nobject
-    recognition\r\nmovement\r\nface recognition\r\nmemory information"
+    four <i>trusted source major brain lobe pairs</i> in the human brain. The occipital
+    lobe is so named because it rests below the occipital bone of the skull. It is
+    also the smallest of the lobes.\r\n\r\nThere are actually two occipital lobes
+    \u2014 one on each hemisphere of the brain. The central cerebral fissure divides
+    and separates the lobes.\n\n<i>Function\r</i>\nIn general, the occipital lobe
+    deals with aspects of vision, including:\r\n\r\ndistance\r\ndepth perception\r\ncolor
+    determination\r\nobject recognition\r\nmovement\r\nface recognition\r\nmemory
+    information"
 --- !u!1 &8252872030743547108
 GameObject:
   m_ObjectHideFlags: 0
